@@ -60,12 +60,11 @@ void logValues(int pwm, bool isNormalMode) {
     }
   }
   TCNT1 = 0;
-  /* Serial.print("RPM: ");
+  Serial.print("RPM: ");
   Serial.print(rpm);
   Serial.print(" | PWM: ");
-  Serial.println(pwm); */
-  Serial.print(rpm);
-  Serial.print("\n");
+  Serial.println(pwm); 
+  //Serial.println(rpm);
 }
 
 void loop() {
